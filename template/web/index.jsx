@@ -57,4 +57,6 @@ const Index = () => {
 
 render(<Index />, document.getElementById('react-root'))
 
+// for hot reload
+import.meta.webpackHot && import.meta.webpackHot.accept()
 
